@@ -1,0 +1,12 @@
+rect {
+  fill: none;
+  pointer-events: all;
+}
+
+.node {
+  fill: #330000;
+}
+
+.link {
+  stroke: #999;
+}
