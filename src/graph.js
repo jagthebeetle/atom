@@ -47,7 +47,7 @@ atom.graph.AdjacencyList.prototype.connectToByKey = function(keyA, keyB) {
 /**
  * Removes references to object from all vertices that might be connected
  * (iterating over all vertices) and then removes key from vertices array.
- * @param {number|string} hostKey Vertex key to delete.
+ * @param {number|string} deleteKey Vertex key to delete.
  * @return {boolean} Return value of delete operation
  */
 atom.graph.AdjacencyList.prototype.deleteByKey = function(deleteKey) {

@@ -1,0 +1,1 @@
+window.newNode = function() {}
