@@ -7,5 +7,5 @@ lib/closure-library/closure/bin/build/closurebuilder.py \
   --output_mode=compiled \
   --compiler_jar=src/compiler.jar \
   --compiler_flags="--compilation_level=ADVANCED_OPTIMIZATIONS" \
-  --compiler_flags="--externs=src/externs.js" \
+  --compiler_flags="--externs=lib/d3-externs/d3_externs.js" \
   > src/compiled.js #pipe

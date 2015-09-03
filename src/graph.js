@@ -27,6 +27,12 @@ atom.graph.AdjacencyList.prototype.addVertexByKey = function(keys) {
   return (oldPopulation < self.population);
 };
 
+/**
+ * Returns queried vertex.
+ *
+ * @param {number|string} key Query key 
+ * @return {Vertex}
+ */
 atom.graph.AdjacencyList.prototype.getByKey = function(key) {
   return this.vertices[key];
 }
@@ -63,6 +69,7 @@ atom.graph.AdjacencyList.prototype.deleteByKey = function(deleteKey) {
  * Represents a Vertex in the graph, encapsulating adjacencies and 
  * other properties of a vertex.
  * @constructor
+ * @typedef {Vertex}
  */
 atom.graph._Vertex = function(name) {
   this.name = name;

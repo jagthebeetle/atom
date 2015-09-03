@@ -12,6 +12,7 @@ atom.main = function() {
   var controller = new atom.InputMon(omniBus);
   // var modeler = new atom.StreamGrapher(omniBus);
   var view = new atom.Renderer(omniBus);
+  view.initD3();
 
   return controller;
 }
